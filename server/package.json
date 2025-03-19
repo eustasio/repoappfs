@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "création d'une application de consultation de repo",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts"
   },
   "repository": {
     "type": "git",
@@ -18,12 +18,15 @@
   },
   "homepage": "https://github.com/eustasio/repoappfs#readme",
   "dependencies": {
-    "@types/express": "^5.0.0",
     "express": "^4.21.2",
-    "ts-node": "^10.9.2",
     "typescripte": "^1.0.0"
   },
   "devDependencies": {
-    "ts-node-dev": "^2.0.0"
-  }
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.10",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.2"
+  },
+  "keywords": []
 }
