@@ -4,19 +4,10 @@
   "description": "création d'une application de consultation de repo",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "bash ./npm-run-commit.sh"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/eustasio/repoappfs.git"
-  },
-  "author": "florian",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/eustasio/repoappfs/issues"
-  },
-  "homepage": "https://github.com/eustasio/repoappfs#readme",
-  "dependencies": {
-    "express": "^4.21.2"
-  }
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

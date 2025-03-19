@@ -1,0 +1,23 @@
+{
+  "name": "repoappfs",
+  "version": "1.0.0",
+  "description": "création d'une application de consultation de repo",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eustasio/repoappfs.git"
+  },
+  "author": "florian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eustasio/repoappfs/issues"
+  },
+  "homepage": "https://github.com/eustasio/repoappfs#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
