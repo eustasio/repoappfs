@@ -18,6 +18,12 @@
   },
   "homepage": "https://github.com/eustasio/repoappfs#readme",
   "dependencies": {
-    "express": "^4.21.2"
+    "@types/express": "^5.0.0",
+    "express": "^4.21.2",
+    "ts-node": "^10.9.2",
+    "typescripte": "^1.0.0"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0"
   }
 }
